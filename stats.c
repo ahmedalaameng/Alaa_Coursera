@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief This file has functions to do some operations on array
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * Show some statistics about the array (mean, median, maximum, minimum)
+ * Sorting the array
+ * Swap elements
+ * Print the array
+ * @author Ahmed Alaa
+ * @date Jan 28, 2021
  *
  */
 
@@ -41,3 +43,34 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+void sort_array(unsigned char * arr, unsigned int array_size){
+	
+
+}
+void swap_elements(unsigned char * arr, unsigned int pos_of_first_element,unsigned int pos_of_second_element){
+	
+}
+
+unsigned char find_maximum(unsigned char * arr, unsigned int array_size){
+	
+}
+
+unsigned char find_minimum(unsigned char * arr, unsigned int array_size){
+	
+}
+
+unsigned char find_median(unsigned char * arr, unsigned int array_size){
+
+}
+
+unsigned char find_mean(unsigned char * arr, unsigned int array_size){
+
+}
+
+void print_statistics(unsigned char minimum, unsigned char maximum,unsigned char mean,unsigned char median){
+	
+}
+
+void print_array(unsigned char * arr, unsigned int array_size){
+
+}
